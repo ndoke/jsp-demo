@@ -11,7 +11,7 @@
 			if (request.getParameter("theItem") != null) {
 				out.println(request.getParameter("theItem"));
 			}
-		
+
 			List<String> items = (List<String>) session.getAttribute("myToDoList");
 
 			if (items == null) {
